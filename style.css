@@ -336,12 +336,13 @@ h3.my-profession {
 }
 .home .home-img {
   /* flex:0 0 60%; */
-
   border-radius: 80px;
   max-width: 75%;
   text-align: center;
   position: relative;
+  top: 30px;
 }
+
 .home-img::after {
   content: "";
   position: absolute;
@@ -350,7 +351,7 @@ h3.my-profession {
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
   right: -15px;
-  bottom: 0px;
+  bottom: 30px;
 }
 
 .home-img::before {
