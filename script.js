@@ -12,6 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
   var t = new Typed(".typing2", typedOptions);
 });
 
+document.getElementById('callButton').addEventListener('click', function() {
+  window.location.href = 'tel:+9647501238780';
+});
+
+
+
 // Navigation handling
 const nav = document.querySelector(".nav"),
   navList = nav.querySelectorAll("li"), // Select all navigation items
