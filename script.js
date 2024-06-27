@@ -13,8 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById('callButton').addEventListener('click', function() {
-  window.location.href = 'tel:+9647501238780';
- window.location.href = "viber://add?number=+9647501238780";
  window.location.href = "https://wa.me/+9647501238780?text="+ encodeURIComponent("Hi");
 
 });
