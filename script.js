@@ -13,10 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById('callButton').addEventListener('click', function() {
-  // window.location.href = 'tel:+9647501238780';
-var whatsappLink="https://wa.me/+9647501238780?text="+ encodeURIComponent("Hi");
-  window.open(whatsappLink, '_blank');
-
+   window.location.href = 'tel:+9647501238780';
+// var whatsappLink="https://wa.me/+9647501238780?text="+ encodeURIComponent("Hi");
+//   window.open(whatsappLink, '_blank');
+ // var viberLink = "viber://add?number=" + phoneNumber;
+ //      window.open(viberLink, '_blank');
 });
 
 
